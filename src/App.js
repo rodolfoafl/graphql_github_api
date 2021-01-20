@@ -3,20 +3,17 @@ import Repos from "./components/Repos";
 
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
-import dotenv from "dotenv";
-dotenv.config();
-
-const client = new ApolloClient({
-  uri: "https://api.github.com/graphql",
-  headers: {
-    authorization: `Bearer ${process.env.GRAPHQL_AUTH_TOKEN}`,
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  },
-  cache: new InMemoryCache(),
-});
-
 const App = () => {
+  const client = new ApolloClient({
+    uri: "https://api.github.com/graphql",
+    headers: {
+      authorization: `Bearer b7bbe5245469651a82629d037fd7316d4497b535`,
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    cache: new InMemoryCache(),
+  });
+
   return (
     <ApolloProvider client={client}>
       <div className="container mt-2">
