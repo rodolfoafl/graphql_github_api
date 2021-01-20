@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/graphql_github_api/static/css/main.bbc1fad3.chunk.css",
-    "main.js": "/graphql_github_api/static/js/main.5570e303.chunk.js",
-    "main.js.map": "/graphql_github_api/static/js/main.5570e303.chunk.js.map",
+    "main.js": "/graphql_github_api/static/js/main.d148a828.chunk.js",
+    "main.js.map": "/graphql_github_api/static/js/main.d148a828.chunk.js.map",
     "runtime-main.js": "/graphql_github_api/static/js/runtime-main.4987a78f.js",
     "runtime-main.js.map": "/graphql_github_api/static/js/runtime-main.4987a78f.js.map",
     "static/js/2.008bbf56.chunk.js": "/graphql_github_api/static/js/2.008bbf56.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4987a78f.js",
     "static/js/2.008bbf56.chunk.js",
     "static/css/main.bbc1fad3.chunk.css",
-    "static/js/main.5570e303.chunk.js"
+    "static/js/main.d148a828.chunk.js"
   ]
 }
